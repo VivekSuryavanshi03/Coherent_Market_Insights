@@ -5,13 +5,15 @@ This project contains two connected **n8n workflows**. Together, they allow you 
 The setup has been divided into two parts:  
 
 1. **Independent Workflow** – This is the entry point. It listens for a message or trigger, then connects to a Google Maps scraping tool.  
-2. **Dependent Workflow** – This is executed only after the first workflow. It takes the scraped data, processes it step by step, and finally saves it in a Google Sheet.  
+2. **Dependent Workflow** – This is executed only after the first workflow. It takes the scraped data, processes it step by step, and finally saves it in Google Sheets.  
 
 ---
 
 ## 📌 Workflow 1: Google Maps Scraper (Independent)
 
 This is the workflow that starts the whole process.  
+
+![Independent Workflow](./images/workflow1.png)
 
 **Trigger Node:**  
 - The workflow begins with **When Chat Message Received** (or any other trigger you prefer). This node simply waits until a user input or signal comes in.  
@@ -28,6 +30,8 @@ This workflow’s main responsibility is only to get the raw data. It does not s
 ## 📌 Workflow 2: Data Processing and Storage (Dependent)
 
 This workflow runs only when triggered by the first workflow. Its job is to take the raw data, clean it up, and save it into Google Sheets.  
+
+![Dependent Workflow](./images/workflow2.png)
 
 **Step-by-Step Explanation of Nodes:**  
 
