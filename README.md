@@ -31,7 +31,7 @@ This workflow’s main responsibility is only to get the raw data. It does not s
 
 This workflow runs only when triggered by the first workflow. Its job is to take the raw data, clean it up, and save it into Google Sheets.  
 
-![Dependent Workflow](./images/workflow2.png)
+![Dependent Workflow](https://github.com/VivekSuryavanshi03/abhishek/blob/f1bef04151a4d2e1edbe82d669de3eaa67215d18/Screenshot%202025-08-27%20021930.png)
 
 **Step-by-Step Explanation of Nodes:**  
 
