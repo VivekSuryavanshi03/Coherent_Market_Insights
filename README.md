@@ -13,7 +13,7 @@ The setup has been divided into two parts:
 
 This is the workflow that starts the whole process.  
 
-![Independent Workflow](./images/workflow1.png)
+![Independent Workflow](https://github.com/VivekSuryavanshi03/abhishek/blob/b6c97a9a1e012192a67a84486a11f5c5b2e00966/Screenshot%202025-08-27%20021905.png)
 
 **Trigger Node:**  
 - The workflow begins with **When Chat Message Received** (or any other trigger you prefer). This node simply waits until a user input or signal comes in.  
